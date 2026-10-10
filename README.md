@@ -9,7 +9,8 @@ The whole app is one Python file: `app.py`.
 
 Here is a screenshot of today's challenge
 
-![Screenshot of the project](image.png)
+<img width="922" height="1600" alt="image" src="https://github.com/user-attachments/assets/804b6609-d57e-4324-a111-4d28b70009ad" />
+
 
 ## How the judge works
 
