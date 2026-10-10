@@ -30,22 +30,6 @@ Tune the judge with `OUTDOOR_THRESHOLD` and `MATCH_THRESHOLD` at the top of `app
 - The EXIF check is best-effort: webcam captures and some uploads have no date, and those are allowed.
 - Anyone who knows a group code can join that group. Fine for friends, not for a public launch.
 
-## [IGNORE] For Me: To Run it on my laptop 
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
-Open http://127.0.0.1:7860. The first run downloads the CLIP model (about 600 MB).
-
-To use it from your phone, run `python app.py --share` instead. Gradio prints a temporary public HTTPS link. Your laptop has to stay on while people use it.
-
-## Put it online for free (Hugging Face Spaces)
-
-1. Create a new Space at huggingface.co/new-space and choose **Gradio**.
-2. Upload `app.py`, `requirements.txt`, and this `README.md`.
-3. Wait for it to build, then share the Space link and your group code with friends.
 
 On a free Space, the saved photos and scores reset if the Space restarts. That's fine for a game day; turn on persistent storage if you want streaks to last weeks.
 
