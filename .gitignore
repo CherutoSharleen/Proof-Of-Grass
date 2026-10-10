@@ -1,0 +1,8 @@
+instructions.md
+__pycache__/
+*.pyc
+data/
+venv/
+.gradio/
+.venv/
+.env/
